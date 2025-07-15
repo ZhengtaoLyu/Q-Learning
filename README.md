@@ -21,7 +21,7 @@ This repository implements a Q-learning agent to solve the Cliff Walking grid-wo
 ## 🔁 Algorithm: Q-learning with ε-greedy
 
 - Update Rule:  
-  $$ Q(s,a) \leftarrow Q(s,a) + \alpha \left[ R + \gamma \max_a Q(s',a) - Q(s,a) \right] $$
+   Q(s,a) \leftarrow Q(s,a) + \alpha \left[ R + \gamma \max_a Q(s',a) - Q(s,a) \right] 
 
 - Policy:  
   ε-greedy (0.1): mostly exploit, sometimes explore
